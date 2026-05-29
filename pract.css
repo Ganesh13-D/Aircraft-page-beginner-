@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    top: 1rem;
+    left: 50%;  
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(85, 104, 7, 0.278);
+    backdrop-filter: blur(8px);
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    width:30%;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+.char{
+    color: black;
+    font-size: 20px;
+}
+.thumb img{
+    width: 100%;
+    display: block;
+    height: 250px;
+}
+
+.thumb:hover img{
+    transform: scale(1.01);
+    transition: 0.5;
+   
+}
+.iminfo-grid{
+   display: grid;
+   grid-template-columns: 30px 1fr; 
+   margin-top: 5px;
+}
+
+.ig{
+    width:18px
+}
+
+.info{
+    min-width: 0;
+}
+
+.mgrid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 30px;
+   column-gap: 10px; 
+}
+
+section{
+    padding-top: 80px;
+}
+
+.mtext{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.gridmain{
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.gridmain:hover{
+    border-color: grey;
+}
+
+body{
+    background-color: rgb(147, 180, 234);
+}
+
+.about-dropdown{
+
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width:500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.comment-box{
+    display: none;
+    position: relative;
+}
+
+.comments{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 250px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: none;
+}

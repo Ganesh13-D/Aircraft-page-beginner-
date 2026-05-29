@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo project</title>
+    <link rel="stylesheet" href="pract.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+       <ul>
+        <li>
+          <a href="#" id="aboutbtn">About</a>
+           <div class="about-dropdown">
+
+        <h3>About</h3>
+
+        <p>
+          This page explores modern aircraft,
+          aviation systems, stealth technology,and futuristic aerospace engineering.
+          and onclicking the aircraft image the page will direct you to main website info of the aircraft
+        </p>
+           </div>
+        </li>
+        <li>
+          <a href="#" id="airbtn">Aircraft 
+            <span>
+              <i class="fa-solid fa-jet-fighter-up"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" id="FSbtn">
+            Flight system
+            <span>
+              <i class="fa-solid fa-globe"></i>
+            </span>
+          </a>
+        </li>
+       </ul>
+    </header>
+    
+    <section class="container">
+      <div class="mgrid">
+
+       <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/images.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel.png">
+        </div>
+        <div class="info">
+          <p class="mtext"> Boeing C-17 Globemaster III 
+          </p>
+          <p class="subinfo">
+            a massive, highly versatile strategic 
+            and tactical airlifter manufactured by Boeing
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image2.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel2.png">
+        </div>
+        <div class="info">
+          <p class="mtext"> AH-64 Apache helicopter
+          </p>
+          <p class="subinfo">
+            AH-64 Apache attack and reconnaissance helicopter. 
+            The twin-engine aircraft, developed by Hughes Helicopters
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image3.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel3.png">
+        </div>
+        <div class="info">
+          <p class="mtext">  F-16 Fighting Falcon 
+          </p>
+          <p class="subinfo">
+            an American single-engine 
+            supersonic multirole fourth-generation fighter aircraft
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image4.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel4.png">
+        </div>
+        <div class="info">
+          <p class="mtext">  F-16 Fighting Falcon 
+          </p>
+          <p class="subinfo">
+            an American single-engine 
+            supersonic multirole fourth-generation fighter aircraft
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image5.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel5.png">
+        </div>
+        <div class="info">
+          <p class="mtext"> The F-117
+          </p>
+          <p class="subinfo">
+            single-seat, twin-engine jet fighter-bomber built 
+            by the Lockheed Corporation 
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image6.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel6.png">
+        </div>
+        <div class="info">
+          <p class="mtext">  Sukhoi Su-57
+          </p>
+          <p class="subinfo">
+            The Sukhoi Su-57 (Russian: Sukhoi Su-57; NATO reporting name: Felon) 
+            is a twin-engine stealth multirole fighter aircraft developed by Sukhoi
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image7.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel7.png">
+        </div>
+        <div class="info">
+          <p class="mtext">  Quinjet 
+          </p>
+          <p class="subinfo"> an advanced, heavily armed VTOL (vertical take-off and landing) 
+            aircraft primarily used by S.H.I.E.L.D. and the Avengers
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image8.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel8.png">
+        </div>
+        <div class="info">
+          <p class="mtext"> The Lockheed SR-71 "Blackbird"
+          </p>
+          <p class="subinfo"> The Lockheed SR-71 Blackbird was 
+            officially retired by the United States Air Force in 1998
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="gridmain">
+
+        <div class="thumb">
+          <img src="picture/image9.jpg">
+        </div>
+        <div class="iminfo-grid">
+          <div class="img">
+          <img class="ig" src="picture/Channel6.png">
+        </div>
+        <div class="info">
+          <p class="mtext">Boeing B-52 Stratofortress
+          </p>
+          <p class="subinfo">
+           The Boeing B-52 Stratofortress is a long-range, subsonic, 
+           jet-powered strategic bomber built by the Boeing 
+           Company for the U.S. Air Force.
+          </p>
+          <div class="comment-box">
+          <input type="text" placeholder="Write comment...">
+          <button onclick="addComment(this)">post</button>
+          <div class="comments"></div>
+        </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      
+    <script src="pract.js"></script>
+    <script src="commt.js"></script>
+</body>
+</html>
