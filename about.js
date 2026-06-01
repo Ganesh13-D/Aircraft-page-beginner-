@@ -1,7 +1,7 @@
 const about = document.getElementById("aboutbtn");
 const dropdown = document.querySelector(".about-dropdown");
 
-aboutbtn.addEventListener("click", function(e){
+about.addEventListener("click", function(e){
     e.preventDefault();
 
     if(dropdown.style.display === "block"){
@@ -9,7 +9,6 @@ aboutbtn.addEventListener("click", function(e){
     }
 
     else{
-
         dropdown.style.display = "block";
     }
 });

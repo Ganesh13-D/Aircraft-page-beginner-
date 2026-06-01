@@ -15,19 +15,18 @@ airBtn.addEventListener("click", function(e){
         else {
             box.style.display = "block";
         }
-
+ 
     });
 
 });
 
 function addComment(btn){
-    let card = btn.closest(".gridmain");
-    let input = card.querySelector(".input");
+    let card = btn.closest(".gridmain"); 
+    let input = card.querySelector("input");
     let commentBox = card.querySelector(".comments");
     if(input.value.trim() !== ""){
 
         commentBox.style.display = "block";
-        commentBox.innerHTML = "";
         let p = document.createElement("p");
         p.innerText = input.value;
         commentBox.appendChild(p);
