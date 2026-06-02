@@ -17,3 +17,14 @@ button{
     padding: 10px;
     cursor: pointer;
 }
+
+
+.links{
+    display: none;
+    cursor: pointer;
+}
+
+#aircraftBtn{
+    cursor:pointer;
+    padding:3px;
+}

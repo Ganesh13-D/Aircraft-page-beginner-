@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System</title>
     <link rel="stylesheet" href="system.css">
+
 </head>
 <body>
     
@@ -20,8 +21,9 @@
 
         <p id="speed">Speed: 0 Km/h</p>
     </div>
-
-    <div>
+      
+    <button id="aircraftBtn">links</button>
+    <div class="links">
         <span>to -</span>  <a href="https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1529726/c-17-globemaster-iii/">C-17 Globemaster III</a> <br>
         <span>to -</span>  <a href="https://www.boeing.com/defense/military-rotorcraft/ah-64-apache">AH-64 Apache helicopter</a><br>
         <span>to -</span>  <a href="https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104505/f-16-fighting-falcon/">F-16 Fighting Falcon</a><br>
@@ -34,23 +36,9 @@
 
     </div>
 
-    <script>
-        let speed = 0;
-
-    function takeOff(){
-        document.getElementById("status").textContent = "Aircraft Status: IN AIR";
-    }
-
-    function land(){
-        document.getElementById("status").textContent = "Aircraft Status: LANDED";
-        speed = 0;
-        document.getElementById("speed").textContent = "Speed: 0 km/h";
-    }
-
-    function increaseSpeed(){
-        speed += 100;
-        document.getElementById("speed").textContent = "Speed: " + speed + " km/h";
-    }
+    <script src="system.js">
+       
+   
     </script>
 </body> 
 </html>
