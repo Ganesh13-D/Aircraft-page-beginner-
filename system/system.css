@@ -10,6 +10,12 @@ body{
     background: white;
     box-shadow: 0 4px 10px rgba(20, 19, 19);
     text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);   
 }
 
 button{
@@ -27,4 +33,9 @@ button{
 #aircraftBtn{
     cursor:pointer;
     padding:3px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
 }
