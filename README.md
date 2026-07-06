@@ -1,17 +1,17 @@
 # Aircraft Web Page
 
-A beginner-level web development project created using HTML, CSS, and JavaScript.
+A web page built using HTML, CSS, and JavaScript that displays information about military aircraft.
 
 ## About
 
-This project provides information about military aircraft through a structured webpage layout. It was developed to practice frontend web development concepts and improve JavaScript skills.
+This project was created to practice frontend web development using HTML, CSS, and JavaScript.
 
 ## Features
 
 - Aircraft information cards
 - Navigation menu
 - Image gallery
-- Show/Hide information sections
+- Show/Hide information
 - CSS Grid layout
 
 ## Technologies Used
@@ -20,17 +20,9 @@ This project provides information about military aircraft through a structured w
 - CSS
 - JavaScript
 
-## What I Learned
-
-- HTML page structure
-- CSS styling and Grid layouts
-- Basic JavaScript DOM manipulation
-- Event handling
-- GitHub project management
-
 ## Future Improvements
 
-- Add more aircraft information
+- Add more aircraft
 - Improve responsiveness
 - Add search functionality
-- Enhance JavaScript interactions
+- Make the page more interactive
